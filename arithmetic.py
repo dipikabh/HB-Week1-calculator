@@ -5,9 +5,9 @@ def add(num1, num2):
     """Return the sum of the two inputs."""
 
     #function must take at least two args, but can take more??
-    sum = num1 + num2
+    total = num1 + num2
 
-    return sum
+    return total
 
 
 def subtract(num1, num2):
@@ -25,7 +25,7 @@ def multiply(num1, num2):
 def divide(num1, num2):
     """Divide the first input by the second and return the result."""
 
-    return num1 / num2
+    return float(num1) / num2
 
 
 def square(num1):
